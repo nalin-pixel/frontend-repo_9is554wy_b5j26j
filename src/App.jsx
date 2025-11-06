@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderBar from './components/HeaderBar';
 import HeroSection from './components/HeroSection';
 import Explorer from './components/Explorer';
-import Newsletter from './components/Newsletter';
+import ShopShowcase from './components/ShopShowcase';
 
 const translations = {
   en: {
@@ -144,7 +144,7 @@ export default function App() {
       <main id="main" className={`${highContrast ? 'text-white' : 'text-gray-900'}`}>
         <HeroSection t={t} highContrast={highContrast} />
         <Explorer t={t} highContrast={highContrast} />
-        <Newsletter t={t} highContrast={highContrast} />
+        <ShopShowcase t={t} highContrast={highContrast} />
       </main>
 
       <footer className={`mt-10 ${highContrast ? 'border-white/20 text-white' : 'border-gray-200 text-gray-600'} border-t`}>
